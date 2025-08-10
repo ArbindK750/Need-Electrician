@@ -86,7 +86,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
 
     const encodedMessage = encodeURIComponent(whatsappMessage);
 
-    window.open(`https://wa.me/+918521535378?text=${encodedMessage}`, "_blank");
+    window.open(`https://wa.me/+917352563127?text=${encodedMessage}`, "_blank");
 
     this.reset();
     alert("Your message has been sent!");
@@ -126,3 +126,4 @@ window.addEventListener('scroll', function() {
         }
     });
 });
+
